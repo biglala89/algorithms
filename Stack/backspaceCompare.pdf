@@ -1,0 +1,16 @@
+class Solution(object):
+    def backspaceCompare(self, S, T):
+        s_stack, t_stack = [], []       
+        def ww(string, stack):
+            for char in string:
+                if char == '#':
+                    if len(stack) > 0:
+                        stack.pop()
+                else:
+                    stack.append(char)
+            return ''.join(stack)
+        return ww(S, s_stack) == ww(T, t_stack)
+
+test = [["aaa#"], ["aaa##"]]
+s = Solution()
+print s.backspaceCompare(test[0][0], test[1][0])

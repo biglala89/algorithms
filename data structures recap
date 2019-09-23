@@ -1,0 +1,17 @@
+data structures recap:
+
+1. string
+
+regular expression matching, recursion/DP, hard
+strStr, two pointers/Rabin-Karp, easy
+longest substr without repeating chars, slow & fast pointers, medium
+minimum substring window contain all characters in pattern, slow & fast pointers, hard
+
+
+2. hashtable/hashmap
+
+two sum of sorted array, two pointers, easy
+two sum of unsorted array, two pointers, easy
+three sum of unsorted array, two pointers, medium
+four sum of unsorted array, two pointers, medium
+
